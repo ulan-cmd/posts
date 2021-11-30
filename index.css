@@ -1,0 +1,76 @@
+.container{
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.popularPosts{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.popularPost{
+	width: 48%;
+	height: 250px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.post1{
+	background-image: url('image/image1.jpg');
+	background-size: cover;
+}
+
+.post2{
+	background-image: url('image/image2.jpg');
+	background-size: cover;
+}
+
+.popularPost .body{
+	width: 100%;
+	margin:20px 15px;
+}
+
+.popularPost .body span{
+	margin-right: 25px;
+}
+
+.badge{
+	background-color: orange;
+	padding: 5px 15px;
+	color: white;
+	border-radius: 5%;
+	text-transform: uppercase;
+}
+
+.createdDate{
+	color: white;
+	font-size: 13px;
+}
+
+.title{
+	margin-top: 10px;
+}
+
+.title h3 {
+	color: white;
+	margin: 0;
+}
+
+
+h1{
+	color: red;
+}
+
+.question{
+	color: pink;
+}
+
+/*
+0) inline стили
+1) ID
+2) class
+3) tag
+*/
+
